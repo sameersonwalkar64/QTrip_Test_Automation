@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="QTrip tests">
+    <groups>
+        <run>
+            <include name="Login Flow"/>
+            <include name="Search and Filter flow"/>
+            <!-- <include name="Booking and Cancellation Flow"/>
+            <include name="Reliability Flow"/> -->
+        </run>
+    </groups>
+    </test>
+</suite>
